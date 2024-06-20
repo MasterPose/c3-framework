@@ -44,7 +44,7 @@ const Config: BehaviorConfig = {
     // }
   },
   fileDependencies: {
-    "anotherLib.ts": 'copy-to-output'
+
   },
   properties: [
     /*{
