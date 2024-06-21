@@ -1,4 +1,4 @@
-import { AceClass, Behavior, Condition, Param } from "c3-framework";
+import { AceClass, Behavior, Condition, Param, Plugin } from "c3-framework";
 import Config from "./addon";
 
 const opts = [
@@ -8,6 +8,7 @@ const opts = [
 ];
 
 @AceClass()
+// class Instance extends Plugin.Instance(Config) {
 class Instance extends Behavior.Instance(Config) {
   constructor() {
     super();
