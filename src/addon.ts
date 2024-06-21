@@ -9,13 +9,13 @@ const Config: BehaviorConfig = {
   version: "1.0.0.0",
   category: "general",
   author: "Author",
-  website: "https://www.construct.net",
-  documentation: "https://www.construct.net",
   description: "Description",
   icon: "icon.svg",
+  editorScripts: ['editor.js'],
+  website: "https://www.construct.net",
+  documentation: "https://www.construct.net",
   addonUrl: 'https://www.construct.net/addons/',
   githubUrl: "https://github.com/",
-  editorScripts: ['editor.js'],
   info: {
     // defaultImageUrl: undefined,
     Set: {
