@@ -1,4 +1,8 @@
 {
+	"include": [
+		"**/*.ts",
+		"./node_modules/c3-framework/ts-defs/**/*.d.ts" // C3 Types
+	],
 	"compilerOptions": {
 		/* Visit https://aka.ms/tsconfig to read more about this file */
 

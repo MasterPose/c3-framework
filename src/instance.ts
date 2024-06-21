@@ -9,7 +9,7 @@ const opts = [
 
 @AceClass()
 // class Instance extends Plugin.Instance(Config) {
-class Instance extends Behavior.Instance(Config) {
+class Instance extends Behavior.Instance<IWorldInstance>(Config) {
   constructor() {
     super();
   }
