@@ -43,9 +43,7 @@ const Config: BehaviorConfig = {
     //   ZOrder: true,
     // }
   },
-  fileDependencies: {
-
-  },
+  fileDependencies: {},
   properties: [
     /*{
       type: "integer",

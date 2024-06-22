@@ -1,14 +1,8 @@
 import { AceClass, Behavior, Condition, Param, Plugin } from "c3-framework";
 import Config from "./addon";
 
-const opts = [
-  'test',
-  'something',
-  'another',
-];
-
 @AceClass()
-// class Instance extends Plugin.Instance(Config) {
+// class Instance extends Plugin.Instance(Config, globalThis.ISDKInstanceBase) {
 class Instance extends Behavior.Instance<IWorldInstance>(Config) {
   constructor() {
     super();
@@ -30,6 +24,7 @@ class Instance extends Behavior.Instance<IWorldInstance>(Config) {
     })
     tag: combo
   ) {
+    const opts = ['test', 'something', 'another'];
     return opts[tag] == 'something';
   }
 
