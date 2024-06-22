@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { initEditor } from "c3-framework";
 import Config from "./addon";
 
