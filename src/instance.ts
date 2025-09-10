@@ -2,7 +2,6 @@ import { AceClass, Behavior, Condition, Param, Plugin } from "@c3framework/core"
 import Config from "./addon";
 
 @AceClass()
-// @ts-ignore
 class Instance extends Behavior.Instance<IWorldInstance>(Config) {
   constructor() {
     super();
@@ -13,7 +12,7 @@ class Instance extends Behavior.Instance<IWorldInstance>(Config) {
     return true;
   }
 
-  @Condition('Is "{0}" Something')
+  @Condition('Is {0} Something')
   isSomething(
     @Param({
       items: [
